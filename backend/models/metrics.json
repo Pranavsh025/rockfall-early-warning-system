@@ -1,0 +1,113 @@
+{
+  "n_samples": 6000,
+  "positive_rate": 0.4833,
+  "ensemble_weights": {
+    "rf": 0.4,
+    "xgb": 0.4,
+    "nb": 0.2
+  },
+  "metrics": {
+    "ensemble": {
+      "accuracy": 0.7942,
+      "precision": 0.7827,
+      "recall": 0.7948,
+      "f1": 0.7887,
+      "roc_auc": 0.871
+    },
+    "rf": {
+      "accuracy": 0.7892,
+      "precision": 0.7711,
+      "recall": 0.8017,
+      "f1": 0.7861,
+      "roc_auc": 0.8649
+    },
+    "xgb": {
+      "accuracy": 0.7867,
+      "precision": 0.7793,
+      "recall": 0.7793,
+      "f1": 0.7793,
+      "roc_auc": 0.8684
+    },
+    "nb": {
+      "accuracy": 0.7725,
+      "precision": 0.7796,
+      "recall": 0.7379,
+      "f1": 0.7582,
+      "roc_auc": 0.8491
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "slope_angle",
+      "importance": 0.3447
+    },
+    {
+      "feature": "soil_moisture",
+      "importance": 0.0853
+    },
+    {
+      "feature": "annual_rainfall",
+      "importance": 0.074
+    },
+    {
+      "feature": "displacement_rate",
+      "importance": 0.0652
+    },
+    {
+      "feature": "crack_width",
+      "importance": 0.064
+    },
+    {
+      "feature": "pore_pressure",
+      "importance": 0.0517
+    },
+    {
+      "feature": "seismic_activity",
+      "importance": 0.0507
+    },
+    {
+      "feature": "days_since_blast",
+      "importance": 0.0487
+    },
+    {
+      "feature": "human_impact",
+      "importance": 0.0374
+    },
+    {
+      "feature": "soil_type_clay",
+      "importance": 0.0229
+    },
+    {
+      "feature": "vegetation_dense",
+      "importance": 0.0226
+    },
+    {
+      "feature": "soil_type_rocky",
+      "importance": 0.0225
+    },
+    {
+      "feature": "soil_type_sandy",
+      "importance": 0.0221
+    },
+    {
+      "feature": "vegetation_sparse",
+      "importance": 0.0197
+    },
+    {
+      "feature": "vegetation_barren",
+      "importance": 0.0194
+    },
+    {
+      "feature": "vegetation_moderate",
+      "importance": 0.0189
+    },
+    {
+      "feature": "soil_type_loamy",
+      "importance": 0.0169
+    },
+    {
+      "feature": "soil_type_mixed",
+      "importance": 0.0135
+    }
+  ]
+}
